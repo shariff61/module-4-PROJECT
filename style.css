@@ -7,3 +7,57 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4.8rem 0;
+  gap: 30px;
+}
+.left {
+  width: 50vw;
+}
+.left p {
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3.8rem;
+}
+.h1 {
+  margin-bottom: 2rem;
+}
+.h4 {
+  margin-bottom: 1.3rem;
+  font-size: 1.3rem;
+}
+.text-color {
+  color: coral;
+}
+
+.btn {
+  background-color: #fa5252;
+  padding: 1rem 2.5rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  border-radius: 12px;
+  margin-top: 1.4rem;
+  border: none;
+}
+.btn:hover {
+  background-color: #e07a0ead;
+  transition: all 1.5s ease;
+}
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.right-shadow {
+  box-shadow: 5px 5px 10px rgba(209, 194, 194, 0.94);
+  padding: 2rem 3rem;
+  border-left: 10px solid rgba(113, 235, 113, 0.843);
+
+  width: 45%;
+}
